@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Library System</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #F5F5DC;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding-top: 60px;
+        }
+        .navbar {
+            background-color: #002147;
+            border-bottom: 2px solid #002147;
+            margin-bottom: 20px; 
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .navbar-brand img {
+            margin-right: 10px;
+        }
+        .nav-link {
+            color: #002147;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #4CAF50;
+        }
+        .nav-item {
+            margin-left: 15px;
+        }
+        .navbar-toggler {
+            border-color: #002147;
+        }
+        .navbar-toggler-icon {
+            background-color: #002147;
+        }
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 20px;
+            width: 100px;
+        }
+        footer {
+            background-color: #002147;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="image/schoollogo.png" alt="Logo" width="50" height="50"> Liloan National High School Library
+        </a>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Catalog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Feedback</a></li>
+                <li class="nav-item"><a class="nav-link" href="AboutUs.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="ContactUs.html">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="Login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <img src="image/schoollogo.png" alt="Library Logo" class="logo">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4>About Us</h4>
+                    </div>
+                    <div class="card-body text-left">
+                        <h5>Welcome to the Liloan National High School Library!</h5>
+                        <p>We’re proud to be a central part of our school community, dedicated to fostering a love for reading and supporting our students' learning journeys.</p>
+
+                        <h5>Our Mission</h5>
+                        <p>Our mission is to create an inviting space where students can explore a variety of resources, work together, and develop critical thinking skills. We aim to empower every student to become a lifelong learner, ready for future challenges.</p>
+
+                        <h5>Our History</h5>
+                        <p>Since our establishment in 2007, the library has grown and evolved to meet the needs of our students and community. We’ve expanded our collection and updated our facilities to ensure everyone has access to the latest information and technology, while also celebrating our local culture and history.</p>
+
+                        <h5>Our Collection</h5>
+                        <p>We offer a diverse collection of over [insert number] books, magazines, and digital resources. Whether you’re looking for textbooks, classic literature, or contemporary novels, we have something for everyone. Our digital resources and online databases make it easy for students to find information anytime, anywhere.</p>
+
+                        <h5>Our Facilities</h5>
+                        <p>Our library is designed to be a welcoming and comfortable place for all students. With cozy reading areas, study rooms, and computer stations, it’s perfect for individual study or group projects. We provide modern technology, including Wi-Fi and multimedia resources, to enhance the learning experience.</p>
+
+                        <h5>Programs and Services</h5>
+                        <p>We offer a variety of programs and services to support our students:</p>
+                        <ul>
+                            <li><strong>Reading Programs:</strong> Enjoy book fairs, reading challenges, and author visits to inspire a love for reading.</li>
+                            <li><strong>Research Assistance:</strong> Our friendly librarians are here to help with research projects and study strategies.</li>
+                            <li><strong>Workshops:</strong> We host workshops on topics like information literacy and study skills to help students succeed academically.</li>
+                            <li><strong>Community Engagement:</strong> We partner with local organizations to promote literacy and educational initiatives outside of school.</li>
+                        </ul>
+
+                        <h5>Our Commitment to Excellence</h5>
+                        <p>We are dedicated to continuously improving our services based on student and faculty feedback. Our library staff works hard to create a supportive and engaging environment where students can learn and grow.</p>
+
+                        <h5>Join Us</h5>
+                        <p>Whether you need a quiet place to study, want to explore new books, or require help with research, the Liloan National High School Library is here for you. We encourage all students to take advantage of our resources and participate in our programs. Together, let’s embark on an exciting journey of discovery and learning!</p>
+
+                        <p>Welcome to the Liloan National High School Library—where knowledge meets community!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Liloan National High School Library.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

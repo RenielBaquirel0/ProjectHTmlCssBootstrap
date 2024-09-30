@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Liloan National High School Library</title>
+    <style>
+        body {
+            background-color: #F5F5DC;
+            padding-top: 60px;
+        }
+        
+        .navbar {
+            background-color: #002147;
+    border-bottom: 2px solid #002147;
+    margin-bottom: 20px; 
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    }
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #002147;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #4CAF50;
+}
+
+.nav-item {
+    margin-left: 15px;
+}
+
+.navbar-toggler {
+    border-color: #002147;
+}
+
+.navbar-toggler-icon {
+    background-color: #002147;
+}
+
+        h1, h2 {
+            color: #343a40;
+        }
+
+        .card {
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+     footer {
+    background-color: #002147;
+    color: white;
+    padding: 10px 0;
+}
+
+        @media (max-width: 576px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            h2 {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="All.html"><img  src="image/schoollogo.png"  alt="Logo" width="50" height="50">Liloan National High School Library</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Catalog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item"></li>
+                <a class="nav-link" href="#">Events
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Feedback
+                </a>
+            </li>
+            <li class="nav-item"></li>
+                <a class="nav-link" href="AboutUs.html">About Us
+                </a>
+            </li>
+            <li class="nav-item"></li>
+                <a class="nav-link" href="ContactUs.html">Contact Us
+                </a>
+            </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Login.html">Login
+            </a>
+        </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container text-center mt-5">
+    <h1>Welcome to the Liloan National High School Library</h1>
+    <form class="form-inline justify-content-center mt-4">
+        <input class="form-control mr-2" type="search" placeholder="Search for books, authors..." aria-label="Search">
+        <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+</div>
+
+<div class="container mt-5">
+    <h2>Recommended Books</h2>
+    <div class="row">
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="image/java.jpg" class="card-img-top" alt="Book 1">
+                <div class="card-body">
+                    <h5 class="card-title">Java: Java For Beginners Guide To Learn Java And Java Programming</h5>
+                    <p class="card-text">Java For Beginners Guide to Learn Java and Java Programming” is for you! This book provides clear, proven steps to master basic Java programming.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="image/designingweb.jpg" class="card-img-top" alt="Book 2">
+                <div class="card-body">
+                    <h5 class="card-title">HTML, CSS, Bootstrap, Javascript and jQuery: Web Designing (web development) </h5>
+                    <p class="card-text">This book includes the whole information regarding web programming the web programming languages inside the book are HTML, CSS, Bootstrap, Javascript.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="image/introprogramming.png" class="card-img-top" alt="Book 3">
+                <div class="card-body">
+                    <h5 class="card-title">The University of Information Science and Technology published the book: Introduction to programming by examples</h5>
+                    <p class="card-text">This book provides code for students. Readers will learn program design, real-world problem modeling, and complexity.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h2>Upcoming Events</h2>
+    <ul class="list-group">
+        <li class="list-group-item">Book Fair - October 01, 2024</li>
+        <li class="list-group-item">Author Visit - October 02, 2024</li>
+        <li class="list-group-item">Library Week - October 03-04, 2024</li>
+    </ul>
+</div>
+
+<footer class="text-center mt-5 mb-3">
+    <p>&copy; 2024 Liloan National High School Library.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

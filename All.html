@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Buttons</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f8ff;
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn-custom {
+            padding: 20px 30px;
+            margin: 10px;
+            font-size: 1.2rem;
+            color: white;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+
+        .btn-custom:hover {
+            transform: scale(1.1);
+        }
+
+        .btn-home { background-color: #ff6347; }
+        .btn-about { background-color: #4682b4; }
+        .btn-contact { background-color: #32cd32; }
+        .btn-login { background-color: #ffa500; }
+        .btn-register { background-color: #9370db; }
+        .btn-dashboard-user { background-color: #ff69b4; }
+        .btn-dashboard-admin { background-color: #20b2aa; }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="index.html" class="btn btn-custom btn-home">HomePage</a>
+        <a href="AboutUs.html" class="btn btn-custom btn-about">About Us</a>
+        <a href="ContactUs.html" class="btn btn-custom btn-contact">Contact Us</a>
+        <a href="Login.html" class="btn btn-custom btn-login">Login</a>
+        <a href="Register.html" class="btn btn-custom btn-register">Register</a>
+        <a href="DashboardUser.html" class="btn btn-custom btn-dashboard-user">DashboardUser</a>
+        <a href="DashboardAdmin.html" class="btn btn-custom btn-dashboard-admin">DashboardAdmin</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
